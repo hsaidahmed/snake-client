@@ -20,8 +20,8 @@ const handleUserInput = function(key) {
   //   conn.write("Move: up");
   // }
   if (key in shortcuts) {
-    conn.write(shortcuts[key])
-    return ;
+    conn.write(shortcuts[key]);
+    return;
   }
   // if (key === 's') {
   //   conn.write("Move: down");
